@@ -4,7 +4,7 @@ import User from "../models/user.model.js";
 // Create a client to send and receive events
 export const inngest = new Inngest({
      id: "pingup-app",
-     signingKey: process.env.INNGEST_SIGNIN_KEY,
+     signingKey: process.env.INNGEST_SIGNING_KEY,
     });
 
 // Inngest function to save the data in database
